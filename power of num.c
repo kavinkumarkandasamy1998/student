@@ -1,13 +1,13 @@
 #include<stdio.h>
 void main()
 {
-int base,exp,result=1;
-scanf("%d",&base);
-scanf("%d",&exp);
-while(exp!=0)
+int b,e,result=1;
+scanf("%d",&b);
+scanf("%d",&e);
+while(e!=0)
 {
-result=result*base;
---exp;
+result=result*b;
+--e;
 }
 printf("%d",result);
 }
