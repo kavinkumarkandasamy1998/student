@@ -1,16 +1,16 @@
 #include<stdio.h>
 void main()
 {
-    char value;
+    char v;
     printf("Enter the number ");
-    scanf("%s",&value);
-    if(value>='0'&&value<='9')
+    scanf("%s",&v);
+    if(v>='0'&&v<='9')
     {
-        printf("yes is numeric",value);
+        printf("yes is numeric",v);
         
 }
 else
 {
-    printf("no is not numeric",value);
+    printf("no is not numeric",v);
 }
 }
