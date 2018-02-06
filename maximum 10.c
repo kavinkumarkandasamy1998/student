@@ -1,4 +1,3 @@
-ines (19 sloc)  331 Bytes
 #include<stdio.h>
 void main()
 {
